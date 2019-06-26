@@ -98,4 +98,5 @@ dependencies {
 
 
     testImplementation mobileUiTestDependencies.kotlinJUnit
+    androidTestImplementation (mobileUiTestDependencies.espressoCore)
 }
