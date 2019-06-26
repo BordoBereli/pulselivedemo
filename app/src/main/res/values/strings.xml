@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Pulse Live Demo</string>
+    <string name="title">Title</string>
+    <string name="date">Date</string>
+    <string name="subtitle">SubTitle</string>
+    <string name="pulse_live_content">Pulse Live Contents</string>
+    <string name="detail_subtitle">Detail Subtitle</string>
+    <string name="connection_error">Please check your internet connection.</string>
+</resources>

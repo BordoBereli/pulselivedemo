@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             xmlns:app="http://schemas.android.com/apk/res-auto"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context=".main.features.content.Contents">
+
+    <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_contents"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:listitem="@layout/content_item"
+            app:layoutManager="LinearLayoutManager"
+    />
+
+    <TextView
+            android:id="@+id/error_message"
+            android:layout_width="match_parent" android:layout_height="match_parent"
+            android:visibility="gone"
+    />
+
+</FrameLayout>
